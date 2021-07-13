@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/4988f4a8a2.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <img src="./src/rsz_lovepik_com-400914534-snow-mountain.png" class="mountains">
+  <div class="stars" ></div>
+  <div class="inicial">
+    <h1 class="play" id="play"><span>S</span><span>T</span><span>A</span><span>R</span><span>T</span></h1>
+  </div>
+  <section class="modal-container" id="modal-contact">
+      <div class="modal">
+        <i class="fas fa-angle-up arrow"></i>
+        <h1 id="title"><span>P</span><span>A</span><span>L</span><span>E</span><span>T</span><span>A </span> <span>D</span><span>E</span><span> C</span><span>O</span><span>R</span><span>E</span><span>S</span></h1>
+        <table id="color-palette"></table>
+        <div class="board">
+          <a id="clear-board"><i class="fas fa-eraser" style="color: #F23827;"></i><span> C</span><span>L</span><span>E</span><span>A</span><span>R</span></a>
+          <input type="number" id="board-size" min="1">
+          <a id="generate-board"><i class="fas fa-expand" style="color: #04B2D9;"></i><span> R</span><span>E</span><span>S</span><span>I</span><span>Z</span><span>E</span></a>
+        </div>
+        <table cellspacing="1" id="pixel-board"></table>
+      </div>
+  </section>
+  <script src="./script.js"></script>
+</body>
+</html>
